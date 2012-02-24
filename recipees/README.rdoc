@@ -1,0 +1,43 @@
+h1. WInstall -- Installation recipees for Microsoft Windows
+
+The goal of this project is to simplify my work of having to setup
+Windows installations completely manually. WInstall is a super-small
+framework for just writing up a small installation recipe for a
+program in a nice DSL and associating it with some metadata. It’s not
+really limited to Windows, but on Linux distros, you usually have a
+package manager administering your software, and on Mac there’s
+Homebrew. Just Windowses, which annoyingly must be set up so often
+miss such a facility.
+
+Note that WInstall is not a package manager--once something is
+installed, it stays so until the user manually removes it. No update
+handling is done either. Just installation.
+
+h2. Usage
+
+  > winstall list
+  > winstall install <recipename>
+
+h2. License
+
+WInstall executes program installation recipees on Windows.
+
+Copyright © 2012 Pegasus Alpha
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see
+<http://www.gnu.org/licenses/>.
+
+h3. Contact
+
+You can contact me at m-guelker@pegasus-alpha.eu.

@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/winstall"
+require_relative "../lib/winstall/option_handler"
+
+puts <<COPYRIGHT
+This is winstall, version #{WInstall::VERSION}.
+Copyright (C) 2012 Pegasus Alpha
+
+This program comes with ABSOLUTELY NO WARRANTY. Pass --warranty
+for more details.
+This is free software, and you are welcome to redistribute it under
+certain conditions, see COPYING for more details.
+
+COPYRIGHT
+
+WInstall::OptionHandler.new(ARGV).execute!
