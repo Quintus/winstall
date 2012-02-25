@@ -69,6 +69,11 @@ class WInstall::Recipe
     end
   end
 
+  def sh(str)
+    info(str)
+    system(str)
+  end
+
   private
 
   def top_info(*strs)

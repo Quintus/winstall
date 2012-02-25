@@ -5,6 +5,7 @@ require "tempfile"
 require "fileutils"
 require "digest/md5"
 require "ansi/core"
+require "os"
 
 module WInstall
 
